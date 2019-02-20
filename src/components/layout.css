@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'ColfaxWebRegular';
+  src: url('../fonts/ColfaxWebRegular.eot');
+  src: url('../fonts/ColfaxWebRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ColfaxWebRegular.woff2') format('woff2'),
+         url('../fonts/ColfaxWebRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5,6 +15,13 @@ html {
 }
 body {
   margin: 0;
+  font-size: 28px;
+  font-family: 'ColfaxWebRegular';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.46;
+  background-color: #3b0e6d;
+  color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -40,6 +57,10 @@ template {
   display: none;
 }
 a {
+  color: #F3C213;
+  border-bottom: 1px solid #F3C213;
+  text-decoration: none;
+  padding-bottom: 0.05em;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -199,8 +220,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: #fff;
+  
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
