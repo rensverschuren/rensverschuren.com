@@ -19,7 +19,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
-                name: `description`,
+                name: `Rens Verschuren is a web developer from The Netherlands.`,
                 content: metaDescription,
               },
               {
