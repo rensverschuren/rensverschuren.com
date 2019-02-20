@@ -20,8 +20,8 @@ body {
   font-weight: normal;
   font-style: normal;
   line-height: 1.46;
-  background-color: #3b0e6d;
-  color: #fff;
+  background-color: #244c3f;
+  color: rgba(255,255,255,0.8);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
