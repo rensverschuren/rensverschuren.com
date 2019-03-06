@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#3b0e6d`,
         theme_color: `#3b0e6d`,
         display: `minimal-ui`,
-
+        icon: `src/images/rens-verschuren.png`
       },
     },
     {
