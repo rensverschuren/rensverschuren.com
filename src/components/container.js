@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './container.scss';
 
 export default (props) => {
   return (
-    <div style={{ maxWidth: '1140px', margin: '0 auto', padding: '0 15px' }}>
-      <div style={{ maxWidth: '530px', padding: '20vh 0 400px' }}>
+    <div className="container">
+      <div className="container__inner">
         {props.children}
       </div>
     </div>
